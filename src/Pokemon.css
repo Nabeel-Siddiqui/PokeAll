@@ -1,0 +1,70 @@
+.pokedex {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    overflow: scroll;
+}
+
+.pokedex-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 15px;
+}
+
+.pokedex-list .pokemon {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    min-height: 150px;
+    padding: 15px;
+    background: white;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+} 
+
+.pokedex-list .pokemon .sprite {
+    width: 100%;
+}
+
+.border{
+    border-radius: 5px;
+}
+
+.pokecatch {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-flow: column;
+    overflow: scroll;
+}
+
+.pokecatch-list {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-gap: 15px;
+}
+
+.pokecatch-list .pokemon {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    min-height: 150px;
+    padding: 15px;
+    background: white;
+    border: black;
+    border-style: solid;
+    border-radius: 5px;
+} 
+
+.pokecatch-list .pokemon .sprite {
+    width: 100%;
+}
+
+.border{
+    border-radius: 5px;
+}
+
