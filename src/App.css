@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-image: url(https://pngimg.com/uploads/pokeball/pokeball_PNG8.png);
+  /* background-image: url(https://pngimg.com/uploads/pokeball/pokeball_PNG8.png); */
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center;
@@ -23,3 +23,9 @@ nav {
   list-style: none;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}

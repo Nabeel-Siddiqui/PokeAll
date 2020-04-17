@@ -8,6 +8,10 @@ function Nav() {
         <nav>
             <Link to='/'><h3>Pokémon App</h3></Link>
             <ul className='nav-links'>
+{/* 
+                <Link to='/allpokemon'>
+                    <li>All Pokemon</li>
+                </Link> 
 
                 <Link to='/pokedex'>
                     <li>PokéDex</li>
@@ -23,7 +27,7 @@ function Nav() {
 
                 <Link to='/catchpokemon'>
                     <li>Catch Pokémon</li>
-                </Link>
+                </Link> */}
                 
             </ul>
         </nav>

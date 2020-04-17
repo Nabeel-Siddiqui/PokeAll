@@ -12,6 +12,7 @@ import CatchPokemon from './components/CatchPokemon.js'
 import PokeQuiz from './components/PokeQuiz.js'
 import PokeBall from './components/PokeBall.js'
 import MainPage from './MainPage.js'
+import LandingPage from './LandingPage.js'
 
 
 
@@ -43,7 +44,9 @@ function App() {
 
           <Nav />
 
-          <Route path='/' exact render={(props) => <MainPage {...props} pokemon={pokemonData.map(pokemon => pokemon)}/>}/>
+          <Route path='/' exact render={(props) => <LandingPage {...props} pokemon={pokemonData.map(pokemon => pokemon)}/>}/>
+
+          <Route path='/allpokemon' exact render={(props) => <MainPage {...props} pokemon={pokemonData.map(pokemon => pokemon)}/>}/>
 
           <Route path='/pokedex' render={(props) => <PokeDex {...props} pokemon={pokemonData.map(pokemon => pokemon)} />}/>
 

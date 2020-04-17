@@ -29,6 +29,7 @@ function CatchPokemon({ pokemon }) {
             setCatchPokemon(response.data)
         })
     }
+    
 
     const pokeType = catchPokemon.types
 
@@ -44,6 +45,7 @@ function CatchPokemon({ pokemon }) {
                     {catchPokemon.name}
                     {/* {catchPokemon.name.charAt(0).toUpperCase() + catchPokemon.name.slice(1)} */}
                 </div>
+                <button onClick={() => window.location.reload(false)}>New Pokemon</button>
                 {/* <div className='border'style={{ backgroundColor: PokeTypeColors[pokemon.types[0].type.name]} }>
                     {catchPokemon.types[0].type.name}
                 </div> */}

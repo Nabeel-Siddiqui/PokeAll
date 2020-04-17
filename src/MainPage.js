@@ -10,7 +10,7 @@ function MainPage( { pokemon } ) {
 
     return (
         <div className="pokedex">
-            <h1>ALL 151 POKÈMON</h1>
+            <h1>ONLY 151 POKÈMON</h1>
         <div className="pokedex-list">
             {pokemon.map(pokemon => { return ( 
             <div className="pokemon">
